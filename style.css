@@ -1,0 +1,44 @@
+  .container {
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(17, 127, 224);
+    height: auto;
+    padding: 15px;
+  }
+  input {
+    display: inline-block;
+    color: #161616;
+    font-size: 16px;
+  }
+  .letters {
+    position: absolute;
+    height: 20px;
+    width: auto;
+    margin-top: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    }
+    #add {
+      color: #f7f4f4;
+      width: 45px;
+      height: auto;
+      padding:0px 5px;
+      border: 1px solid;
+    }
+  .content > span {
+    display: block;
+    color: rgb(39, 38, 38);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: blanchedalmond;
+  }
+  .delete {
+    float: right;
+    padding: 4px;
+    color: #252323;
+    font-size: 15px;
+    cursor: pointer;
+  }
